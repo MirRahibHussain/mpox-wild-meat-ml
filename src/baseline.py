@@ -7,7 +7,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, HistGradientBoostingClassifier
 
-h = pd.read_csv('/home/claude/mpox/data/hunter_food_preparer_Dataverse.tab', sep='\t', low_memory=False)
+h = pd.read_csv('data/hunter_food_preparer_Dataverse.tab', sep='\t', low_memory=False)
 
 items = ['soap','washsurface','leave_dead','dont_eat_lesions']
 S = h[items].apply(pd.to_numeric, errors='coerce')

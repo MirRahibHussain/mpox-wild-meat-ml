@@ -1,6 +1,6 @@
 import pandas as pd, numpy as np
 pd.set_option('display.width', 200)
-h = pd.read_csv('/home/claude/mpox/data/hunter_food_preparer_Dataverse.tab', sep='\t', low_memory=False)
+h = pd.read_csv('data/hunter_food_preparer_Dataverse.tab', sep='\t', low_memory=False)
 
 risk_items = {           # 1 = safer behaviour
  'soap':'washes hands with soap',
