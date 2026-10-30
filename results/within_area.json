@@ -1,0 +1,296 @@
+{
+ "Yokadouma": {
+  "n": 618,
+  "prev": 0.655,
+  "auc": 0.575,
+  "auc_sd": 0.105,
+  "blocks": [
+   {
+    "block": "Water, livestock, injuries",
+    "mean_abs": 0.0548,
+    "ci": [
+     0.0398,
+     0.0714
+    ],
+    "rank": 1
+   },
+   {
+    "block": "Occupation & job security",
+    "mean_abs": 0.0363,
+    "ci": [
+     0.0245,
+     0.0497
+    ],
+    "rank": 2
+   },
+   {
+    "block": "Consumption frequency",
+    "mean_abs": 0.0267,
+    "ci": [
+     0.0204,
+     0.0343
+    ],
+    "rank": 3
+   },
+   {
+    "block": "Ethnicity",
+    "mean_abs": 0.0202,
+    "ci": [
+     0.0121,
+     0.0305
+    ],
+    "rank": 4
+   },
+   {
+    "block": "Risk perception & knowledge",
+    "mean_abs": 0.0124,
+    "ci": [
+     0.0088,
+     0.0159
+    ],
+    "rank": 5
+   },
+   {
+    "block": "Demographics (sex, age)",
+    "mean_abs": 0.0122,
+    "ci": [
+     0.0095,
+     0.0148
+    ],
+    "rank": 6
+   },
+   {
+    "block": "Handling role",
+    "mean_abs": 0.0112,
+    "ci": [
+     0.008,
+     0.0151
+    ],
+    "rank": 7
+   },
+   {
+    "block": "Hunting participation & motive",
+    "mean_abs": 0.0094,
+    "ci": [
+     0.0067,
+     0.0124
+    ],
+    "rank": 8
+   },
+   {
+    "block": "Household size & hunters",
+    "mean_abs": 0.0083,
+    "ci": [
+     0.0055,
+     0.012
+    ],
+    "rank": 9
+   },
+   {
+    "block": "Species hunted",
+    "mean_abs": 0.0031,
+    "ci": [
+     0.0025,
+     0.0038
+    ],
+    "rank": 10
+   }
+  ]
+ },
+ "Bengbis": {
+  "n": 586,
+  "prev": 0.35,
+  "auc": 0.643,
+  "auc_sd": 0.051,
+  "blocks": [
+   {
+    "block": "Consumption frequency",
+    "mean_abs": 0.0459,
+    "ci": [
+     0.0331,
+     0.0591
+    ],
+    "rank": 1
+   },
+   {
+    "block": "Water, livestock, injuries",
+    "mean_abs": 0.0401,
+    "ci": [
+     0.03,
+     0.0511
+    ],
+    "rank": 2
+   },
+   {
+    "block": "Demographics (sex, age)",
+    "mean_abs": 0.0397,
+    "ci": [
+     0.0305,
+     0.048
+    ],
+    "rank": 3
+   },
+   {
+    "block": "Occupation & job security",
+    "mean_abs": 0.0356,
+    "ci": [
+     0.0287,
+     0.0425
+    ],
+    "rank": 4
+   },
+   {
+    "block": "Hunting participation & motive",
+    "mean_abs": 0.0158,
+    "ci": [
+     0.0118,
+     0.0201
+    ],
+    "rank": 5
+   },
+   {
+    "block": "Risk perception & knowledge",
+    "mean_abs": 0.0117,
+    "ci": [
+     0.0071,
+     0.0176
+    ],
+    "rank": 6
+   },
+   {
+    "block": "Household size & hunters",
+    "mean_abs": 0.0109,
+    "ci": [
+     0.0072,
+     0.0155
+    ],
+    "rank": 7
+   },
+   {
+    "block": "Species hunted",
+    "mean_abs": 0.0075,
+    "ci": [
+     0.0044,
+     0.0113
+    ],
+    "rank": 8
+   },
+   {
+    "block": "Handling role",
+    "mean_abs": 0.0069,
+    "ci": [
+     0.0049,
+     0.0094
+    ],
+    "rank": 9
+   },
+   {
+    "block": "Ethnicity",
+    "mean_abs": 0.0034,
+    "ci": [
+     0.0015,
+     0.0066
+    ],
+    "rank": 10
+   }
+  ]
+ },
+ "Mintom": {
+  "n": 545,
+  "prev": 0.42,
+  "auc": 0.686,
+  "auc_sd": 0.047,
+  "blocks": [
+   {
+    "block": "Occupation & job security",
+    "mean_abs": 0.0493,
+    "ci": [
+     0.0332,
+     0.0675
+    ],
+    "rank": 1
+   },
+   {
+    "block": "Consumption frequency",
+    "mean_abs": 0.0355,
+    "ci": [
+     0.0281,
+     0.0428
+    ],
+    "rank": 2
+   },
+   {
+    "block": "Risk perception & knowledge",
+    "mean_abs": 0.0313,
+    "ci": [
+     0.0273,
+     0.0354
+    ],
+    "rank": 3
+   },
+   {
+    "block": "Water, livestock, injuries",
+    "mean_abs": 0.0263,
+    "ci": [
+     0.0193,
+     0.0335
+    ],
+    "rank": 4
+   },
+   {
+    "block": "Species hunted",
+    "mean_abs": 0.0241,
+    "ci": [
+     0.021,
+     0.0277
+    ],
+    "rank": 5
+   },
+   {
+    "block": "Ethnicity",
+    "mean_abs": 0.0176,
+    "ci": [
+     0.013,
+     0.0229
+    ],
+    "rank": 6
+   },
+   {
+    "block": "Household size & hunters",
+    "mean_abs": 0.0111,
+    "ci": [
+     0.0081,
+     0.0143
+    ],
+    "rank": 7
+   },
+   {
+    "block": "Hunting participation & motive",
+    "mean_abs": 0.0102,
+    "ci": [
+     0.0076,
+     0.0129
+    ],
+    "rank": 8
+   },
+   {
+    "block": "Demographics (sex, age)",
+    "mean_abs": 0.0081,
+    "ci": [
+     0.0058,
+     0.0105
+    ],
+    "rank": 9
+   },
+   {
+    "block": "Handling role",
+    "mean_abs": 0.0071,
+    "ci": [
+     0.0055,
+     0.0089
+    ],
+    "rank": 10
+   }
+  ]
+ }
+}

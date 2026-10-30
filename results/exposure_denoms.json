@@ -1,0 +1,238 @@
+{
+ "n": 2262,
+ "q22often_clothesgetbloodstained": {
+  "n_nonmissing": 2261,
+  "counts": {
+   "Sometimes": 786,
+   "Rarely": 647,
+   "Often": 479,
+   "Always": 197,
+   "Never": 152
+  },
+  "pct": {
+   "Sometimes": 34.8,
+   "Rarely": 28.6,
+   "Often": 21.2,
+   "Always": 8.7,
+   "Never": 6.7
+  }
+ },
+ "q34eat_rawmeat": {
+  "n_nonmissing": 2262,
+  "counts": {
+   "Never": 2200,
+   "Weekly": 24,
+   "Monthly": 24,
+   "Daily": 10,
+   "Less than once a year": 2,
+   "Every 6 months": 1,
+   "0": 1
+  },
+  "pct": {
+   "Never": 97.3,
+   "Weekly": 1.1,
+   "Monthly": 1.1,
+   "Daily": 0.4,
+   "Less than once a year": 0.1,
+   "Every 6 months": 0.0,
+   "0": 0.0
+  }
+ },
+ "q27frequently_eatwildmeat_rainys": {
+  "n_nonmissing": 2261,
+  "counts": {
+   "Weekly": 1330,
+   "Monthly": 535,
+   "Daily": 219,
+   "Every months": 126,
+   "Every six months": 36,
+   "Never": 12,
+   "Once a year": 3
+  },
+  "pct": {
+   "Weekly": 58.8,
+   "Monthly": 23.7,
+   "Daily": 9.7,
+   "Every months": 5.6,
+   "Every six months": 1.6,
+   "Never": 0.5,
+   "Once a year": 0.1
+  }
+ },
+ "q28frequently_eatwildmeat_drysea": {
+  "n_nonmissing": 2262,
+  "counts": {
+   "Monthly": 940,
+   "Weekly": 621,
+   "Every months": 467,
+   "Every six months": 120,
+   "Daily": 94,
+   "Never": 13,
+   "Once a year": 5,
+   "Less than once a year": 2
+  },
+  "pct": {
+   "Monthly": 41.6,
+   "Weekly": 27.5,
+   "Every months": 20.6,
+   "Every six months": 5.3,
+   "Daily": 4.2,
+   "Never": 0.6,
+   "Once a year": 0.2,
+   "Less than once a year": 0.1
+  }
+ },
+ "q36usually_cookwildmeat": {
+  "n_nonmissing": 2261,
+  "counts": {
+   "Boiled in soup/stew": 1619,
+   "Boiled in soup/stew Cooked over open fire": 465,
+   "Cooked over open fire Boiled in soup/stew": 78,
+   "Cooked over open fire": 52,
+   "Boiled in soup/stew Cooked over open fire Other": 33,
+   "Boiled in soup/stew Other": 8,
+   "Cooked over open fire Boiled in soup/stew Other": 3,
+   "Other": 2,
+   "Cooked over open fire Other": 1
+  },
+  "pct": {
+   "Boiled in soup/stew": 71.6,
+   "Boiled in soup/stew Cooked over open fire": 20.6,
+   "Cooked over open fire Boiled in soup/stew": 3.4,
+   "Cooked over open fire": 2.3,
+   "Boiled in soup/stew Cooked over open fire Other": 1.5,
+   "Boiled in soup/stew Other": 0.4,
+   "Cooked over open fire Boiled in soup/stew Other": 0.1,
+   "Other": 0.1,
+   "Cooked over open fire Other": 0.0
+  }
+ },
+ "q13eatorleavetheanimal": {
+  "n_nonmissing": 395,
+  "counts": {
+   "Cook/smook properly before eating": 140,
+   "Don\ufffd\ufffd\ufffdt eat if the animal is decomposing or if I see maggots": 91,
+   "Take the meat to eat at the camp/home": 54,
+   "Don\ufffd\ufffd\ufffdt eat if the cause of death cannot be defined": 53,
+   "Remove the viscera": 21,
+   "Depend if something else to eat is available": 8,
+   "Depend of the animal species": 7,
+   "Remove the decomposed parts of the meat": 5,
+   "Only sell or give to someone else": 4,
+   "Don\ufffd\ufffd\ufffdt eat if the cause of death cannot be defined, Don\ufffd\ufffd\ufffdt eat if the animal is decomposing or if I see maggots": 3,
+   "Decide with relatives to eat or not": 2,
+   "Don\ufffd\ufffd\ufffdt eat if the animal is decomposing or if I see maggots, Don\ufffd\ufffd\ufffdt eat if the cause of death cannot be defined": 2,
+   "Depend of the animal species, Don\ufffd\ufffd\ufffdt eat if the animal is decomposing or if I see maggots": 2,
+   "Take the meat to eat at the camp/home, Cook/smoke properly before eating": 1,
+   "Don\ufffd\ufffd\ufffdt eat if the animal is decomposing or if I see maggots, Remove the viscera": 1,
+   "Remove the viscera, Cook/smoke properly before eating": 1
+  },
+  "pct": {
+   "Cook/smook properly before eating": 35.4,
+   "Don\ufffd\ufffd\ufffdt eat if the animal is decomposing or if I see maggots": 23.0,
+   "Take the meat to eat at the camp/home": 13.7,
+   "Don\ufffd\ufffd\ufffdt eat if the cause of death cannot be defined": 13.4,
+   "Remove the viscera": 5.3,
+   "Depend if something else to eat is available": 2.0,
+   "Depend of the animal species": 1.8,
+   "Remove the decomposed parts of the meat": 1.3,
+   "Only sell or give to someone else": 1.0,
+   "Don\ufffd\ufffd\ufffdt eat if the cause of death cannot be defined, Don\ufffd\ufffd\ufffdt eat if the animal is decomposing or if I see maggots": 0.8,
+   "Decide with relatives to eat or not": 0.5,
+   "Don\ufffd\ufffd\ufffdt eat if the animal is decomposing or if I see maggots, Don\ufffd\ufffd\ufffdt eat if the cause of death cannot be defined": 0.5,
+   "Depend of the animal species, Don\ufffd\ufffd\ufffdt eat if the animal is decomposing or if I see maggots": 0.5,
+   "Take the meat to eat at the camp/home, Cook/smoke properly before eating": 0.3,
+   "Don\ufffd\ufffd\ufffdt eat if the animal is decomposing or if I see maggots, Remove the viscera": 0.3,
+   "Remove the viscera, Cook/smoke properly before eating": 0.3
+  }
+ },
+ "q38do_findviscerawithlesions": {
+  "n_nonmissing": 2261,
+  "counts": {
+   "Throw it in the bush": 1220,
+   "Remove the lesion and eat the rest": 582,
+   "Other": 177,
+   "Eat the viscera whole but well cooked": 139,
+   "Give to dog, cat or chickens": 68,
+   "Eat the viscera normally": 51,
+   "Bury it": 18,
+   "Burn it": 5,
+   "Sell it": 1
+  },
+  "pct": {
+   "Throw it in the bush": 54.0,
+   "Remove the lesion and eat the rest": 25.7,
+   "Other": 7.8,
+   "Eat the viscera whole but well cooked": 6.1,
+   "Give to dog, cat or chickens": 3.0,
+   "Eat the viscera normally": 2.3,
+   "Bury it": 0.8,
+   "Burn it": 0.2,
+   "Sell it": 0.0
+  }
+ },
+ "primates": {
+  "n_nonmissing": 1114,
+  "yes": 439,
+  "pct": 39.4
+ },
+ "rats": {
+  "n_nonmissing": 1114,
+  "yes": 1051,
+  "pct": 94.3
+ },
+ "bathunt": {
+  "n_nonmissing": 1114,
+  "yes": 125,
+  "pct": 11.2
+ },
+ "inj": {
+  "n_nonmissing": 1113,
+  "yes": 571,
+  "pct": 51.3
+ },
+ "bite": {
+  "n_nonmissing": 2262,
+  "yes": 65,
+  "pct": 2.9
+ },
+ "claws": {
+  "n_nonmissing": 2262,
+  "yes": 21,
+  "pct": 0.9
+ },
+ "nails": {
+  "n_nonmissing": 2262,
+  "yes": 14,
+  "pct": 0.6
+ },
+ "treatment": {
+  "n_nonmissing": 2262,
+  "yes": 356,
+  "pct": 15.7
+ },
+ "butcher_wildmeat": {
+  "n_nonmissing": 2258,
+  "yes": 1951,
+  "pct": 86.4
+ },
+ "cook_wildmeat": {
+  "n_nonmissing": 2258,
+  "yes": 1798,
+  "pct": 79.6
+ },
+ "remove_lesion_eat": {
+  "n_nonmissing": 2262,
+  "yes": 582,
+  "pct": 25.7
+ },
+ "dead_eat_homeforest": {
+  "n_nonmissing": 2262,
+  "yes": 32,
+  "pct": 1.4
+ },
+ "ever_hunt": {
+  "n_nonmissing": 2262,
+  "yes": 1115
+ }
+}

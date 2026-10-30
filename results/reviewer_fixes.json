@@ -1,0 +1,168 @@
+{
+ "loao": [
+  [
+   "Bengbis",
+   586,
+   0.35,
+   0.564
+  ],
+  [
+   "Lomi\ufffd\ufffd",
+   513,
+   0.365,
+   0.677
+  ],
+  [
+   "Mintom",
+   545,
+   0.42,
+   0.644
+  ],
+  [
+   "Yokadouma",
+   618,
+   0.655,
+   0.566
+  ]
+ ],
+ "card_full": {
+  "auc": 0.692,
+  "card": [
+   [
+    5,
+    "c__cstudyarea_Yokadouma"
+   ],
+   [
+    -2,
+    "c__fprimaryoccupation_Other"
+   ],
+   [
+    2,
+    "c__isecondaryoccupation_Collecting NTFP selling (excluding hunting and fishing)"
+   ],
+   [
+    -2,
+    "c__q27frequently_eatwildmeat_rainys_Monthly"
+   ],
+   [
+    -2,
+    "n__concerned"
+   ],
+   [
+    -1,
+    "c__hprimaryoccupationstatus_Temporary"
+   ],
+   [
+    1,
+    "c__hprimaryoccupationstatus_Permanent"
+   ],
+   [
+    -1,
+    "c__lage_26-40 years"
+   ],
+   [
+    1,
+    "c__q27frequently_eatwildmeat_rainys_Daily"
+   ],
+   [
+    -1,
+    "c__q45havedogsathome_No"
+   ],
+   [
+    1,
+    "c__q28frequently_eatwildmeat_drysea_Weekly"
+   ]
+  ]
+ },
+ "card_drop": {
+  "auc": 0.687,
+  "card": [
+   [
+    5,
+    "c__cstudyarea_Yokadouma"
+   ],
+   [
+    -2,
+    "c__fprimaryoccupation_Other"
+   ],
+   [
+    -2,
+    "c__hprimaryoccupationstatus_Temporary"
+   ],
+   [
+    2,
+    "c__isecondaryoccupation_Collecting NTFP selling (excluding hunting and fishing)"
+   ],
+   [
+    -2,
+    "c__q27frequently_eatwildmeat_rainys_Monthly"
+   ],
+   [
+    -2,
+    "n__concerned"
+   ],
+   [
+    1,
+    "c__q51obtainwaterfordrinking_Shared Pump"
+   ],
+   [
+    1,
+    "c__hprimaryoccupationstatus_Permanent"
+   ],
+   [
+    1,
+    "c__q27frequently_eatwildmeat_rainys_Daily"
+   ],
+   [
+    -1,
+    "c__q28frequently_eatwildmeat_drysea_Every six months"
+   ],
+   [
+    1,
+    "c__q28frequently_eatwildmeat_drysea_Weekly"
+   ]
+  ]
+ },
+ "excluded": [
+  [
+   "egender = Female",
+   49.4,
+   55.4
+  ],
+  [
+   "cstudyarea = Bengbis",
+   25.9,
+   8.0
+  ],
+  [
+   "cstudyarea = Lomi\ufffd\ufffd",
+   22.7,
+   56.2
+  ],
+  [
+   "cstudyarea = Mintom",
+   24.1,
+   29.5
+  ],
+  [
+   "cstudyarea = Yokadouma",
+   27.3,
+   6.2
+  ],
+  [
+   "nethnicity = Baka",
+   23.6,
+   14.3
+  ],
+  [
+   "hprimaryoccupationstatus = Temporary",
+   74.8,
+   36.6
+  ],
+  [
+   "q1ever_hunt = Yes",
+   49.3,
+   14.3
+  ]
+ ]
+}

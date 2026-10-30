@@ -1,0 +1,30 @@
+{
+ "Bengbis": {
+  "n": 586,
+  "lesion_eat_pct": 13.1,
+  "blood_pct": 63.7,
+  "hunt_pct": 36.0,
+  "butcher_pct": 86.5
+ },
+ "Lomie": {
+  "n": 513,
+  "lesion_eat_pct": 30.0,
+  "blood_pct": 74.7,
+  "hunt_pct": 50.9,
+  "butcher_pct": 86.5
+ },
+ "Mintom": {
+  "n": 545,
+  "lesion_eat_pct": 22.9,
+  "blood_pct": 51.7,
+  "hunt_pct": 55.2,
+  "butcher_pct": 87.2
+ },
+ "Yokadouma": {
+  "n": 618,
+  "lesion_eat_pct": 67.3,
+  "blood_pct": 68.6,
+  "hunt_pct": 55.3,
+  "butcher_pct": 85.5
+ }
+}

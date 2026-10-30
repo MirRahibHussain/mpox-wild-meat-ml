@@ -1,0 +1,298 @@
+{
+ "frequency_map": {
+  "Daily": 182,
+  "Weekly": 26,
+  "Monthly": 6,
+  "Every 6 months": 1,
+  "Once a year": 0.5,
+  "Less than once a year": 0.25,
+  "Never": 0,
+  "Every months": "2 (primary) / 3 (sensitivity)"
+ },
+ "blood_map": {
+  "Always": 1.0,
+  "Often": 0.6,
+  "Sometimes": 0.3,
+  "Rarely": 0.1,
+  "Never": 0.0
+ },
+ "blood_map_low": {
+  "Always": 1.0,
+  "Often": 0.5,
+  "Sometimes": 0.2,
+  "Rarely": 0.05,
+  "Never": 0.0
+ },
+ "blood_map_high": {
+  "Always": 1.0,
+  "Often": 0.75,
+  "Sometimes": 0.4,
+  "Rarely": 0.15,
+  "Never": 0.0
+ },
+ "n": 2262,
+ "profile_main": {
+  "E_consume": {
+   "median": 32.0,
+   "iqr": [
+    12.0,
+    52.0
+   ],
+   "mean": 52.0,
+   "p90": 188.0,
+   "p99": 364.0,
+   "max": 364.0
+  },
+  "E_butcher": {
+   "median": 32.0,
+   "iqr": [
+    8.0,
+    52.0
+   ],
+   "mean": 46.8,
+   "p90": 188.0,
+   "p99": 364.0,
+   "max": 364.0
+  },
+  "E_blood": {
+   "median": 5.2,
+   "iqr": [
+    1.2,
+    16.8
+   ],
+   "mean": 19.8,
+   "p90": 36.4,
+   "p99": 208.0,
+   "max": 364.0
+  },
+  "E_total": {
+   "median": 67.2,
+   "iqr": [
+    28.0,
+    109.2
+   ],
+   "mean": 118.6,
+   "p90": 432.4,
+   "p99": 837.2,
+   "max": 1092.0
+  },
+  "P4_lesion_pct": 34.1,
+  "by_area": {
+   "Bengbis": {
+    "n": 586,
+    "E_blood_median": 5.2,
+    "E_blood_mean": 18.9,
+    "E_total_median": 67.2,
+    "P4_lesion_pct": 13.1
+   },
+   "Lomie": {
+    "n": 513,
+    "E_blood_median": 5.2,
+    "E_blood_mean": 11.7,
+    "E_total_median": 67.2,
+    "P4_lesion_pct": 30.0
+   },
+   "Mintom": {
+    "n": 545,
+    "E_blood_median": 3.2,
+    "E_blood_mean": 10.4,
+    "E_total_median": 58.8,
+    "P4_lesion_pct": 22.9
+   },
+   "Yokadouma": {
+    "n": 618,
+    "E_blood_median": 9.6,
+    "E_blood_mean": 35.5,
+    "E_total_median": 73.6,
+    "P4_lesion_pct": 67.3
+   }
+  }
+ },
+ "sensitivity": {
+  "amb_3": {
+   "median": 5.4,
+   "iqr": [
+    1.2,
+    17.4
+   ],
+   "mean": 19.8,
+   "p90": 36.4,
+   "p99": 208.0,
+   "max": 364.0
+  },
+  "blood_low": {
+   "median": 4.0,
+   "iqr": [
+    0.6,
+    13.0
+   ],
+   "mean": 16.4,
+   "p90": 32.0,
+   "p99": 208.0,
+   "max": 364.0
+  },
+  "blood_high": {
+   "median": 7.8,
+   "iqr": [
+    1.8,
+    21.0
+   ],
+   "mean": 23.8,
+   "p90": 52.0,
+   "p99": 208.0,
+   "max": 364.0
+  }
+ },
+ "prediction": {
+  "E_blood": {
+   "Random forest": {
+    "r2": 0.134,
+    "spearman": 0.312,
+    "spearman_ci": [
+     0.244,
+     0.37
+    ],
+    "mae_log": 1.079,
+    "mae_events": 17.0
+   },
+   "Gradient boosting": {
+    "r2": 0.077,
+    "spearman": 0.294,
+    "spearman_ci": [
+     0.217,
+     0.363
+    ],
+    "mae_log": 1.105,
+    "mae_events": 17.2
+   },
+   "Ridge regression": {
+    "r2": -0.085,
+    "spearman": 0.162,
+    "spearman_ci": [
+     0.055,
+     0.256
+    ],
+    "mae_log": 1.21,
+    "mae_events": 19.2
+   },
+   "_n_features": 92,
+   "_n_villages": 56
+  },
+  "E_total": {
+   "Random forest": {
+    "r2": 0.185,
+    "spearman": 0.389,
+    "spearman_ci": [
+     0.308,
+     0.451
+    ],
+    "mae_log": 0.76,
+    "mae_events": 80.7
+   },
+   "Gradient boosting": {
+    "r2": 0.142,
+    "spearman": 0.362,
+    "spearman_ci": [
+     0.276,
+     0.428
+    ],
+    "mae_log": 0.786,
+    "mae_events": 83.0
+   },
+   "Ridge regression": {
+    "r2": -0.005,
+    "spearman": 0.215,
+    "spearman_ci": [
+     0.094,
+     0.315
+    ],
+    "mae_log": 0.858,
+    "mae_events": 90.6
+   },
+   "_n_features": 92,
+   "_n_villages": 56
+  },
+  "E_consume": {
+   "Random forest": {
+    "r2": 0.192,
+    "spearman": 0.403,
+    "spearman_ci": [
+     0.328,
+     0.463
+    ],
+    "mae_log": 0.669,
+    "mae_events": 33.1
+   },
+   "Gradient boosting": {
+    "r2": 0.156,
+    "spearman": 0.386,
+    "spearman_ci": [
+     0.307,
+     0.449
+    ],
+    "mae_log": 0.689,
+    "mae_events": 33.9
+   },
+   "Ridge regression": {
+    "r2": 0.035,
+    "spearman": 0.254,
+    "spearman_ci": [
+     0.135,
+     0.355
+    ],
+    "mae_log": 0.747,
+    "mae_events": 36.6
+   },
+   "_n_features": 92,
+   "_n_villages": 56
+  }
+ },
+ "loao": {
+  "E_blood": {
+   "Bengbis": {
+    "n": 586,
+    "r2": -0.032,
+    "spearman": 0.126
+   },
+   "Lomie": {
+    "n": 513,
+    "r2": -0.199,
+    "spearman": 0.009
+   },
+   "Mintom": {
+    "n": 545,
+    "r2": -0.209,
+    "spearman": 0.028
+   },
+   "Yokadouma": {
+    "n": 618,
+    "r2": -0.046,
+    "spearman": 0.135
+   },
+   "mean_spearman": 0.075
+  },
+  "E_total": {
+   "Bengbis": {
+    "n": 586,
+    "r2": -0.201,
+    "spearman": 0.152
+   },
+   "Lomie": {
+    "n": 513,
+    "r2": -0.195,
+    "spearman": -0.033
+   },
+   "Mintom": {
+    "n": 545,
+    "r2": -0.377,
+    "spearman": 0.009
+   },
+   "Yokadouma": {
+    "n": 618,
+    "r2": -0.224,
+    "spearman": 0.195
+   },
+   "mean_spearman": 0.081
+  }
+ }
+}
