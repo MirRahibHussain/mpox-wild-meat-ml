@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Analysis code: machine learning assessment of mpox-relevant food safety risk in the wild meat value chain"
+authors:
+  - family-names: Talpur
+    given-names: Mir Rahib Hussain
+license: MIT
+repository-code: "https://github.com/REPLACE-WITH-YOUR-REPO"

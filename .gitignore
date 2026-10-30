@@ -1,0 +1,4 @@
+data/*.tab
+data/*.dta
+__pycache__/
+*.pyc

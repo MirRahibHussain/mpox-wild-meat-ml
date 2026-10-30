@@ -1,0 +1,66 @@
+{
+ "soap": [
+  0.418,
+  0.733
+ ],
+ "washsurface": [
+  0.734,
+  0.654
+ ],
+ "leave_dead": [
+  0.784,
+  0.854
+ ],
+ "dont_eat_lesions": [
+  0.444,
+  0.781
+ ],
+ "0 safe practices": [
+  0.127,
+  0.75
+ ],
+ "<=1 (primary)": [
+  0.454,
+  0.703
+ ],
+ "<=2 safe practices": [
+  0.818,
+  0.719
+ ],
+ "spearman": [
+  0.409
+ ],
+ "seeds": [
+  0.698,
+  0.708
+ ],
+ "fairness": {
+  "A. all predictors": {
+   "pooled": 0.706,
+   "baka": 0.7,
+   "other": 0.707,
+   "gap_ci": [
+    -0.083,
+    0.069
+   ]
+  },
+  "B. ethnicity removed": {
+   "pooled": 0.702,
+   "baka": 0.697,
+   "other": 0.706,
+   "gap_ci": [
+    -0.079,
+    0.055
+   ]
+  },
+  "C. ethnicity, sex, species removed": {
+   "pooled": 0.703,
+   "baka": 0.697,
+   "other": 0.707,
+   "gap_ci": [
+    -0.086,
+    0.061
+   ]
+  }
+ }
+}
